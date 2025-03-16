@@ -1,0 +1,9 @@
+class Money
+{
+public static void main(String args[])
+{
+double doller=1;
+double rupees=doller*86.57;
+system.out.println(rupees);
+}
+}

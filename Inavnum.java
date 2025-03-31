@@ -9,24 +9,30 @@ class InavNumner
 		
 		while(num>9)
 		{
-			int sum=0;
+		int sum=0;
 			while(num>0)
 			{
-		int res=num%10;
-		sum+=res;
-		num/=10;
-		}
+			int res=num%10;
+			sum+=res;
+			num/=10;
+			System.out.println(sum);
+			}
 		num=sum;
 		}
 		
+	}
+
+
+	void Display()
+	{
 		if(num==1)
 		System.out.println("InavNumber");
 
 		else
 		System.out.println("Not InavNumber");
-
-
 	}
+
+		
 	
 }		
 		
@@ -45,6 +51,7 @@ class InavMain
 		i.num=s.nextInt();
 
 		i.calInav();
+		i.Display();
 
 	}
 }

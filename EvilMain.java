@@ -34,7 +34,7 @@ class Evil
         }
 }
 
-class EvilMain
+class EvilNumber
 {
 public static void main(String args[])
 {

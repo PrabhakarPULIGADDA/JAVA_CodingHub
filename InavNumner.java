@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class InavNumner
+class Inav
 {
 
 	int num;
@@ -34,12 +34,12 @@ class InavNumner
 
 
 
-class InavMain
+class InavNumber
 {
 	public static void main(String args[])
 	{
 		Scanner s=new Scanner(System.in);
-		InavNumner i=new InavNumner();
+		Inav i=new Inav();
 	
 		System.out.println("enter the number: ");
 		i.num=s.nextInt();

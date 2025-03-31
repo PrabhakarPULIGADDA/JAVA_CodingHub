@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-class PowerNumber
+class Power
 {
 	int sum, product=1;
 	void calPowerNumber(int num)
@@ -22,12 +22,12 @@ class PowerNumber
 
 }
 
-class PowernumberMain
+class PowerNumber
 {
 public static void main(String args[])
 {
 Scanner sc=new Scanner(System.in);
-PowerNumber p=new PowerNumber();
+Power p=new Power();
 System.out.println("Enter thr number: ");
 int n=sc.nextInt();
 p.calPowerNumber(n);

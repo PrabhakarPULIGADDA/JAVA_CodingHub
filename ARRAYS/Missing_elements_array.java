@@ -15,7 +15,7 @@ class Missing_elements_array
 				if(x==temp)
 				{
 				count++;
-				//break;
+				break;
 				}
 			}
 		if(count==0)

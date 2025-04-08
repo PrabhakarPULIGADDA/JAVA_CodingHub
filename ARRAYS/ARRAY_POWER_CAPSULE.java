@@ -24,31 +24,54 @@ class ARRAY_POWER_CAPSULE
 				}
 			}
 			
-			if(count==1)//FOR UNIQUE ELEMENTS
+			/*if(count==1)//FOR UNIQUE ELEMENTS
 			{
 			System.out.println("first unique element: "+a[x]);
 			//break;
 
-			}
+			}*/
+
 
 			/*if(count>1)//FOR DUPLICATES
 			{
-			System.out.println("the first duplicate element is: "+a[x]);
-			break;
-			
+			System.out.println(a[x]);			
 			}*/
 	
+
 			/*if(count>1)//DUPLICATE FREQUENCY							
 			System.out.println(a[x]+" "+count);*/
 
+
+
 			/*if(count==1)//UNIQUE DREQUNECY
 			System.out.println(a[x]+" "+count);*/
+
 			
 			
 			//System.out.println(a[x]+" "+count); //NORMAL FREQUENCY
 
 
+
 			//System.out.println(a[x]);//REMOVING DUPLICATES
+
+
+			
+			if(count>1)//FOR FIRST DUPLICATE
+			{
+			System.out.println("the first duplicate element is: "+a[x]);
+			break;			
+			}
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 

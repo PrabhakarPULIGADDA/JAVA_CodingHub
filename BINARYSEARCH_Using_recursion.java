@@ -47,7 +47,7 @@ class BINARYSEARCH_Using_recursion
 
 		else
 		{
-		        end=mid-1;
+			Binary_Search(a,search,mid+1,mid-1,mid);
 		}
 		}
 	}
@@ -61,7 +61,7 @@ class BINARYSEARCH_Using_recursion
 
 		int a[]=new int[]{5,2,1,3,4};
 
-		int b[]=br.Single_Loop_Sorting(a,1);
+		int b[]=br.Single_Loop_Sorting(a,5);
 	
 		System.out.println("Array after Sorting: ");
 		for( int t:b)

@@ -1,4 +1,4 @@
-
+/*
 import java.util.Scanner;
 class TRANSPOSE_2DARRAY
 {
@@ -60,19 +60,7 @@ class TRANSPOSE_2DARRAY
 
 
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
+}*/
 
 
 
@@ -102,3 +90,6 @@ class TRANSPOSE_2DARRAY {
             for (int c = 0; c <= a[r].length - 1; c++) {
                 System.out.print(a[r][c] + " ");
             }
+}
+}
+}
